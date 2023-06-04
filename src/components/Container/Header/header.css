@@ -1,0 +1,32 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 72px;
+    background-color: var(--BG_NAV);
+    position: sticky;
+    top: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.header-container_logo {
+    font-size: larger;
+}
+
+a {
+    line-height: 25px;
+    padding: 0.3px 3px 5.4px 5px;
+    background-color: var(--BG_CARD);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    width: 200px;
+    line-height: 25px;
+}
