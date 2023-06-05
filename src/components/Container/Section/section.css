@@ -25,7 +25,7 @@
     border-radius: 5px;
     color: var(--TEXT_WHITE );
     background-color: var(--BG_CARD);
-    padding: 25px 0;
+    padding: 25px ;
 }
 
 .multi-temp {
@@ -92,4 +92,25 @@
     border: 2px solid var(--BG_CARD);
     border-radius: 5px;
     background-color: #9993;
+}
+
+@media screen and (max-width: 575px) {
+    .section-hourly {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center; 
+        align-items: center;
+        padding: 0 ;
+    }
+    .single-temp {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: var(--TEXT_WHITE );
+        background-color: var(--BG_CARD);
+        padding: 25px;
+    }
 }
