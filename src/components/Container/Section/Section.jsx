@@ -3,7 +3,7 @@ import { useWeatherContext } from "../../../contexts/WeatherContext";
 
 function Section () {
     let { weatherData, current } = useWeatherContext();
-    console.log("***weatherData: ", weatherData);
+    // console.log("***weatherData: ", weatherData);
     // console.log("***currentData: ", current);
     const hourData = weatherData[0].hour.filter((item,index) => index % 3 === 0).slice(4,11)
     // console.log(hourData);
@@ -72,7 +72,7 @@ function Section () {
             <div className="section-weekly">
             {
                         weatherData.map((item, index) => {
-                            console.log(item);
+                            // console.log(item);
                             return (
                             <div className="weekly-card" key={index}>
                                 

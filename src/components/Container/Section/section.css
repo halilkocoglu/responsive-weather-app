@@ -12,6 +12,10 @@
     justify-content: center; 
     align-items: center;
     height: auto;
+    border-left: 2px solid #fff7;
+    border-right: 2px solid #fff7;
+    border-radius: 5px;
+    padding: 0 1rem;
 }
 .single-temp {
     display: flex;
@@ -65,6 +69,8 @@
     border-radius: 5px;
     padding: 48px;
     gap: 1rem;
+    border-left: 2px solid #fff7;
+    border-right: 2px solid #fff7;
 }
 
 .weekly-card {
